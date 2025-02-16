@@ -6,9 +6,9 @@
 
 """Tests all Chapter 11 tasks."""
 
-from predicates.deduction_test import *
-from predicates.prenex_test import *
-from predicates.some_proofs_test import *
+from tests.predicates.deduction_test import *
+from tests.predicates.prenex_test import *
+from tests.predicates.some_proofs_test import *
 
 
 def test_task1(debug=False):

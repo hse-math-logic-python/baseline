@@ -6,8 +6,8 @@
 
 """Tests all Chapter 10 tasks."""
 
-from predicates.prover_test import *
-from predicates.some_proofs_test import *
+from tests.predicates.prover_test import *
+from tests.predicates.some_proofs_test import *
 
 
 def test_skeleton(debug=False):

@@ -6,10 +6,10 @@
 
 """Tests all Chapter 4 tasks."""
 
-from propositions.proofs_test import *
-from propositions.semantics_test import *
-from propositions.some_proofs_test import *
-from propositions.soundness_test import *
+from tests.propositions.proofs_test import *
+from tests.propositions.semantics_test import *
+from tests.propositions.some_proofs_test import *
+from tests.propositions.soundness_test import *
 
 
 def test_task1(debug=False):

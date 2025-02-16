@@ -6,9 +6,9 @@
 
 """Tests all Chapter 5 tasks."""
 
-from propositions.proofs_test import *
-from propositions.deduction_test import *
-from propositions.some_proofs_test import *
+from tests.propositions.proofs_test import *
+from tests.propositions.deduction_test import *
+from tests.propositions.some_proofs_test import *
 
 
 def pretest_validity(debug=False):

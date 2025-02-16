@@ -6,8 +6,7 @@
 
 """Tests all Chapter 12 tasks."""
 
-from predicates.syntax_test import *
-from predicates.completeness_test import *
+from tests.predicates.completeness_test import *
 
 
 def test_task1(debug=False):

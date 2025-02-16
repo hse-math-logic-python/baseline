@@ -6,7 +6,7 @@
 
 """Tests all Chapter 2 tasks."""
 
-from propositions.semantics_test import (
+from tests.propositions.semantics_test import (
     test_evaluate,
     test_all_models,
     test_truth_values,

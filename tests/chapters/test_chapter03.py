@@ -6,9 +6,7 @@
 
 """Tests all Chapter 3 tasks."""
 
-from propositions import syntax_test
-from propositions import semantics_test
-from propositions import operators_test
+from tests.propositions import semantics_test, operators_test, syntax_test
 
 
 def test_before_tasks(debug=False):

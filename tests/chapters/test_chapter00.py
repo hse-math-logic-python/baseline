@@ -6,7 +6,7 @@
 
 """Tests all Chapter 0 tasks."""
 
-from prelim.prelim_test import test_half
+from tests.prelim.prelim_test import test_half
 
 
 def test_task1(debug=False):

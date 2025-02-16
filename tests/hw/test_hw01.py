@@ -6,7 +6,7 @@
 
 """Tests all Chapter 1 tasks."""
 
-from propositions import syntax_test
+from tests.propositions import syntax_test
 
 
 def test_task1(debug=False):
