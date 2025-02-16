@@ -2,7 +2,7 @@
 name = "math-logic"
 version = "0.1.0"
 description = ""
-authors = ["werserk <werserk@inbox.ru>"]
+authors = ["Ayvor team"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
