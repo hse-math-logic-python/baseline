@@ -41,12 +41,12 @@ def to_not_and(formula: Formula) -> Formula:
         return Formula("~", to_not_and(f.first))
     left = to_not_and(f.first)
     right = to_not_and(f.second)
-    if f.root == "&":
-        return Formula("&", left, right)
-    elif f.root == "|":
-        return Formula("~", Formula("&", Formula("~", left), Formula("~", right)))
-    else:
-        raise Exception("Unexpected operator in to_not_and: " + f.root)
+    # if f.root == "&":
+    #     return Formula("&", left, right)
+    # elif f.root == "|":
+    #     return Formula("~", Formula("&", Formula("~", left), Formula("~", right)))
+    # else:
+    raise Exception("Unexpected operator in to_not_and: " + f.root)
 
 
 def to_nand(formula: Formula) -> Formula:
